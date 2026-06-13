@@ -2,7 +2,7 @@
 ### Saudi Arabia | General Authority for Statistics (GASTAT)
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
-![Phase](https://img.shields.io/badge/Phase-2%20of%205-blue)
+![Phase](https://img.shields.io/badge/Phase-3%20of%205-blue)
 ![Tools](https://img.shields.io/badge/Tools-SQL%20Server%20%7C%20Power%20BI%20%7C%20Excel-green)
 
 ---
@@ -39,7 +39,7 @@ HICES-2023-Analytics/
 
 ---
 
-## 📊 Datasets (Phase 2 — Complete)
+## 📊 Datasets (Phase 2 — Complete ✅)
 
 | File | Description |
 |---|---|
@@ -50,6 +50,20 @@ HICES-2023-Analytics/
 | `05_expenditure_by_region.csv` | Expenditure across all 13 regions |
 | `06_coicop_expenditure.csv` | Expenditure breakdown by COICOP categories |
 | `07_savings_gap.csv` | Savings rate per region (income minus expenditure) |
+
+---
+
+## 🔍 SQL Queries (Phase 3 — Complete ✅)
+
+| File | Business Question |
+|---|---|
+| `query_01_nationality_gap.csv` | Income gap between Saudi and non-Saudi households |
+| `query_02_income_vs_expenditure_by_region.csv` | Which regions have highest income and expenditure? |
+| `query_03_income_by_age.csv` | At what age does household income peak? |
+| `query_04_income_by_education.csv` | How does education level affect income? |
+| `query_05_expenditure_by_region.csv` | Expenditure distribution across regions |
+| `query_06_coicop_expenditure.csv` | What are the largest household spending categories? |
+| `query_07_savings_gap.csv` | Are households saving or spending beyond their income? |
 
 ---
 
@@ -68,15 +82,17 @@ HICES-2023-Analytics/
 |---|---|---|
 | 1 | Project Scoping | ✅ Complete |
 | 2 | Data Preparation | ✅ Complete |
-| 3 | SQL Server Database & Queries | 🔄 In Progress |
-| 4 | Power BI Dashboard | ⏳ Not Started |
+| 3 | SQL Server Database & Queries | ✅ Complete |
+| 4 | Power BI Dashboard | 🔄 In Progress |
 | 5 | Final Documentation | ⏳ Not Started |
 
 ---
 
-## 💡 Early Insight
+## 💡 Key Insights So Far
 
-> Jazan and Najran show a **negative savings rate**, meaning households in these regions spend more than their disposable income — a finding that warrants deeper investigation in the dashboard.
+> Saudi household income is **232% higher** than non-Saudi — discovered through a computed SQL column combining CAST, arithmetic, and ROUND.
+
+> **Jazan and Najran** show a negative savings rate, meaning households in these regions spend more than their disposable income.
 
 ---
 
